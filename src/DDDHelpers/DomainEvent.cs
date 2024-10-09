@@ -1,7 +1,6 @@
-﻿using Domain;
-using System;
+﻿using System;
 
-namespace News.Domain
+namespace Domain
 {
     public abstract class DomainEvent : Event
     {
