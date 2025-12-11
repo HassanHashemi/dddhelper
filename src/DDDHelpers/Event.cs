@@ -6,7 +6,7 @@ namespace Domain
     {
         private string _eventName;
 
-        public DateTime Timestamp { get; set; }
+        public DateTime Timestamp { get; set; } = DateTime.Now;
         public virtual string EventName
         {
             get
@@ -24,7 +24,9 @@ namespace Domain
                 _eventName = value;
             }
         }
+
         public virtual bool MustPropagate { get; set; }
+        public virtual bool ForceAsync { get; set; }
         public int Version { get; set; }
         public object EventMetadata { get; set; }
     }
