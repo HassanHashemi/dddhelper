@@ -1,5 +1,4 @@
 ﻿using System;
-using News.Domain;
 
 namespace Domain
 {
