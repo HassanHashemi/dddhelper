@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Domain
+namespace News.Domain
 {
     public class Event
     {
