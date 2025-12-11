@@ -24,7 +24,9 @@ namespace Domain
                 _eventName = value;
             }
         }
+
         public virtual bool MustPropagate { get; set; }
+        public virtual bool ForceAsync { get; set; }
         public int Version { get; set; }
         public object EventMetadata { get; set; }
     }
