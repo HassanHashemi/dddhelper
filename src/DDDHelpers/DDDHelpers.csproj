@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <PackageReference Include="ArgsValidation" Version="0.0.2" />
-    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
   </ItemGroup>
 
 </Project>
